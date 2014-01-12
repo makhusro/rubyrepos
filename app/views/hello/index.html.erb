@@ -1,2 +1,14 @@
-<h1>Hello#index</h1>
+<h1><%= @message %></h1>
 <p>Find me in app/views/hello/index.html.erb</p>
+<p><%= @bonus %></p>
+
+<% for i in 1..@count %>
+  <p><%= @bonus1 %></p>
+<% end %>
+<% content_for(:list) do %>
+<ol>
+<% for i in 1..@count %>
+<li><%= @bonus %></li>
+<% end %>
+</ol>
+<% end %>
