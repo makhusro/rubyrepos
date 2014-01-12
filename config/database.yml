@@ -14,7 +14,7 @@ development:
   database: hello_development
   pool: 5
   username: root
-  password:
+  password: Winter67@
   host: localhost
 
 # Warning: The database defined as "test" will be erased and
@@ -26,7 +26,7 @@ test:
   database: hello_test
   pool: 5
   username: root
-  password:
+  password: Winter67@
   host: localhost
 
 production:
@@ -35,5 +35,5 @@ production:
   database: hello_production
   pool: 5
   username: root
-  password:
+  password: Winter67@
   host: localhost
